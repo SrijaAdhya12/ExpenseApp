@@ -1,22 +1,21 @@
-import { PlusCircleIcon } from "@heroicons/react/24/solid"
-import { useEffect, useRef } from "react"
-import { useFetcher } from "react-router-dom"
+import { PlusCircleIcon } from "@heroicons/react/24/solid";
+import { useEffect, useRef } from "react";
+import { useFetcher } from "react-router-dom";
 
 const AddExpenseForm = ({ budgets }) => {
-    const fetcher = useFetcher()
-    const formRef = useRef()
-    const focusRef = useRef()
-    const isSubmitting = fetcher.state === "submitting"
-    useEffect(() => {
-        if (!isSubmitting) {
-            //clear form
-            formRef.current.reset()
-            //reset focus
-            focusRef.current.focus()
-
-        }
-    }, [isSubmitting])
-  return (
+	const fetcher = useFetcher();
+	const formRef = useRef();
+	const focusRef = useRef();
+	const isSubmitting = fetcher.state === "submitting";
+	useEffect(() => {
+		if (!isSubmitting) {
+			//clear form
+			formRef.current.reset();
+			//reset focus
+			focusRef.current.focus();
+		}
+	}, [isSubmitting]);
+	return (
 		<div className="form-wrapper">
 			<h2 className="h3">
 				Add New{" "}
@@ -79,6 +78,6 @@ const AddExpenseForm = ({ budgets }) => {
 			</fetcher.Form>
 		</div>
 	);
-}
+};
 
-export default AddExpenseForm
+export default AddExpenseForm;

@@ -7,16 +7,16 @@ import N from "../components/N";
 export const mainLoader = () => {
 	const userName = fetchData("userName");
 	return { userName };
-}
+};
 
 const Main = () => {
 	const { userName } = useLoaderData();
 	return (
-    <div className="layout">
-      <N userName={userName} />
-      <main>
-			<Outlet />
-      </main>
+		<div className="layout">
+			<N userName={userName} />
+			<main>
+				<Outlet />
+			</main>
 			<img src={wave} />
 		</div>
 	);

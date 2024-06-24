@@ -1,16 +1,20 @@
-import React from 'react'
-import { formatCurrency, formatDateToLocaleString, getAllMatchingItems } from "../Helpers";
-import { Link, useFetcher } from 'react-router-dom';
-import { TrashIcon } from '@heroicons/react/24/solid';
+import React from "react";
+import {
+	formatCurrency,
+	formatDateToLocaleString,
+	getAllMatchingItems,
+} from "../Helpers";
+import { Link, useFetcher } from "react-router-dom";
+import { TrashIcon } from "@heroicons/react/24/solid";
 
 const ExpenseItem = ({ expense }) => {
-	const fetcher = useFetcher()
+	const fetcher = useFetcher();
 	const budget = getAllMatchingItems({
 		catagory: "budgets",
-		key: 'id',
-		value: expense.budgetId
-	})[0]
-  return (
+		key: "id",
+		value: expense.budgetId,
+	})[0];
+	return (
 		<>
 			<td>{expense.name}</td>
 			<td>{formatCurrency(expense.amount)}</td>
@@ -40,6 +44,6 @@ const ExpenseItem = ({ expense }) => {
 			</td>
 		</>
 	);
-}
+};
 
-export default ExpenseItem
+export default ExpenseItem;
