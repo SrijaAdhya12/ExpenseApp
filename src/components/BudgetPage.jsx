@@ -1,11 +1,12 @@
 import React from "react";
-import { getAllMatchingItems } from "../Helpers";
+import { createExpense, deletedItem, getAllMatchingItems } from "../Helpers";
 import { useLoaderData } from "react-router-dom";
 import BudgetItem from "./BudgetItem";
 import AddExpenseForm from "./AddExpenseForm";
 import Table from "./Table";
+import { toast } from "react-toastify";
 
-//loader
+// loader
 export async function budgetLoader({ params }) {
 	const budget = await getAllMatchingItems({
 		catagory: "budgets",
@@ -24,6 +25,38 @@ export async function budgetLoader({ params }) {
 	}
 
 	return { budget, expenses };
+}
+
+
+export async function budgetAction({ request }) {
+	const data = await request.formData();
+	const { _action, ...values } = Object.fromEntries(data);
+
+	if (_action === "createExpense") {
+		try {
+			createExpense({
+				name: values.newExpense,
+				amount: values.newExpenseAmount,
+				budgetId: values.newExpenseBudget,
+			});
+			return toast.success(`Expense ${values.newExpense} created!`);
+		} catch (e) {
+			throw new Error("There was a problem creating your expense.");
+		}
+	}
+	
+	//delete
+	if (_action === "deleteExpense") {
+		try {
+			deletedItem({
+				key: "expenses",
+				id: values.expenseId,
+			});
+			return toast.success("Expense deleted!");
+		} catch (e) {
+			throw new Error("There was a problem deleting your expense.");
+		}
+	}
 }
 
 const BudgetPage = () => {
