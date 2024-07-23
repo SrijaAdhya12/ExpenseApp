@@ -27,21 +27,20 @@
 
 ## Introduction
 
-- Go to [`.github/workflows`](.github/workflows) and for each workflow replace *github-super-starter-kit* with *repo-name*.
-- Press `ctrl+shift+F` and `github-super-starter-kit` then replace all with your `repo-name`.
-- To enable the workflows, go to `settings/actions` in your repo and change "Workflow Permissions" from "Read repository contents ..." to "Read and Write ..."
-- To configure automatic preview generation, replace [`url`](.github/take-snapshot.mjs#L5) with your hosted URL.
-- Configure the [CodeQL Analysis](.github/workflows/codeql-analysis.yml) according to your tech stack/language.
-- Feel free to add your own sections in this readme according to your requirements, make sure to link those sections in the above [**Table of Contents**](#table-of-contents)
-  
+- An Expense-App to make daily budgeting easy.
+- A project based on React js.
+- A fully responsive and sleek website with seemless UI.
+
+
 ![line]
 
 ## Developement
 
-- Steps used for development of this project
-- Build processes
-- CI/CD commands
-- Docker commands
+
+```sh
+> npm install
+> npm run dev
+```
 
 ![line]
 
