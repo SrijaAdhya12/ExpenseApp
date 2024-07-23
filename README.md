@@ -57,7 +57,8 @@
 
 ## Preview
 
-![Snapshot](.github/preview.png)
+![Macbook-Air-expense-app-amber vercel app](https://github.com/user-attachments/assets/74f30189-9d54-40c8-a87d-f35f7f0cea6f)
+
 
 ![line]
 
