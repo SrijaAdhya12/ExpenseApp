@@ -49,11 +49,10 @@
 - React js
 - Java Script
 - Vite
-- Markdown
 - Github
+- Markdown
 
-![Github](https://img.shields.io/badge/react-%23121011.svg?style=for-the-badge&logo=react&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Markdown](https://img.shields.io/badge/vite-%23000000.svg?style=for-the-badge&logo=vite&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) ![Dependabot](https://img.shields.io/badge/dependabot-025E8C?style=for-the-badge&logo=dependabot&logoColor=white) ![YAML](https://img.shields.io/badge/yaml-%23ffffff.svg?style=for-the-badge&logo=yaml&logoColor=151515) 
-
+![React](https://img.shields.io/badge/react-%23121011.svg?style=for-the-badge&logo=react&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Vite](https://img.shields.io/badge/vite-%23000000.svg?style=for-the-badge&logo=vite&logoColor=white) ![Github](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23121011.svg?style=for-the-badge&logo=markdown&logoColor=white)
 ![line]
 
 ## Preview
@@ -65,8 +64,8 @@
 ## Best Contributors
 
 <div align="center">
-    <a  href="https://github.com/warmachine028/github-super-starter-kit/graphs/contributors">
-        <img src="https://contrib.rocks/image?repo=warmachine028/github-super-starter-kit" alt="contributors" />
+    <a  href="https://github.com/SrijaAdhya12/Expense-App/graphs/contributors">
+        <img src="https://contrib.rocks/image?repo=SrijaAdhya12/Expense-App" alt="contributors" />
     </a>
 </div>
 
@@ -84,6 +83,6 @@
 
 [markdown badges]: https://github.com/Ileriayo/markdown-badges
 [line]: https://user-images.githubusercontent.com/75939390/137615281-3a875960-92cc-407f-97fe-fd2319bdb252.png
-[License]: https://github.com/warmachine028/github-super-starter-kit/blob/main/LICENSE
+[License]: https://github.com/SrijaAdhya12/Expense-App/blob/main/LICENSE
 
 <!-- 21/07/24 -->
