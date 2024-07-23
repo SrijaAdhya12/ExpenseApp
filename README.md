@@ -1,4 +1,4 @@
-    updated on: 21st July 2024, Sunday
+    updated on: 23st July 2024, Sunday
 
 <div align=center>
     <a href="https://github.com/SrijaAdhya12/Expense-App">
