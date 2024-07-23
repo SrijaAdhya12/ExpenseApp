@@ -1,149 +1,74 @@
-    updated: Sunday, 31st March 2024
+    updated on: 21st July 2024, Sunday
 
 <div align=center>
-    <a href="https://github.com/SrijaAdhya12/unnati">
-        <img width=200 src="https://github.com/warmachine028/unnati/assets/75939390/aba15eb0-a350-4a5a-a1cd-827023ce8373" alt="unnati">
+    <a href="https://github.com/SrijaAdhya12/Expense-App">
+        <img width="200" src="https://img.icons8.com/?size=1000&id=46874" alt="github-super-starter-kit">
     </a>
-    <p style="font-family: roboto, calibri; font-size:12pt; font-style:italic">Empowering women in Tech</p>
+    <p style="font-family: roboto, calibri; font-size:12pt; font-style:italic"> An Expense Tracking App </p>
+    <a src="https://github.com/SrijaAdhya12/Expense-App/forks">
+        <img alt="GitHub forks" src="https://img.shields.io/github/forks/SrijaAdhya12/Expense-App">
+    </a>
 </div>
 
-# [Unnati](https://unnnati.vercel.app/)
+# [Expense-App](https://github.com/SrijaAdhya12/Expense-App)
 
 ![line]
 
 ## Table of Contents
 
-- [Problem Statement](#problem-statement)
-- [Domain](#domain)
-- [Proposed Solution](#proposed-solution)
-- [Tech Stacks](#tech-stacks)
-- [Installation Guide](#installation-guide)
-- [Usage](#usage)
-- [Contributing](#contributing)
+- [Introduction](#introduction)
+- [Developement](#developement)
+- [Tech Stack Used](#tech-stack-used)
 - [Preview](#preview)
-- [Demo](#demo)
-- [Contributions](#contributions)
-- [Team](#team)
+- [Best Contributors](#best-contributors)
 - [License](#license)
 
 ![line]
 
+## Introduction
 
+- Go to [`.github/workflows`](.github/workflows) and for each workflow replace *github-super-starter-kit* with *repo-name*.
+- Press `ctrl+shift+F` and `github-super-starter-kit` then replace all with your `repo-name`.
+- To enable the workflows, go to `settings/actions` in your repo and change "Workflow Permissions" from "Read repository contents ..." to "Read and Write ..."
+- To configure automatic preview generation, replace [`url`](.github/take-snapshot.mjs#L5) with your hosted URL.
+- Configure the [CodeQL Analysis](.github/workflows/codeql-analysis.yml) according to your tech stack/language.
+- Feel free to add your own sections in this readme according to your requirements, make sure to link those sections in the above [**Table of Contents**](#table-of-contents)
+  
+![line]
 
-## Problem Statement
+## Developement
 
-- To develop an innovative solution to address systemic barriers hindering women's developement, fostering gender equality and promoting inclusivity across various sectors such as technology, education, science and engineering etc.
-- When women are not empowered, it restricts their participation in the workforce and limits their access to education and skills development opportunities.
-- This results in a loss of potential talent and productivity for the economy.
+- Steps used for development of this project
+- Build processes
+- CI/CD commands
+- Docker commands
 
 ![line]
 
-## Domain
+## Tech Stack Used
 
-- Women Empowerment
+- GitHub
+- Markdown
+- GitHub Actions
+- Dependabot
+- Yaml
+- Java Script
 
-![line]
-
-## Proposed Solution
-
-- Discover empowering blogs and articles tailored to women's personal and professional growth. From inspiring stories to practical tips on self-care and career advancement, find resources to help you thrive with confidence and resilience.
-- Get ahead with exclusive job and internship opportunities meant for female camdidated delivered directly through our website. Stay informed about the latest openings tailored to your interests.
-- To find information regarding female hackathons and meetups
-- Users can donate money which will be used for female education and other healthcare purpose.
-
-![line]
-
-## Tech Stacks
-
-- MongoDB: For DataBase Management
-- ExpressJs: For BackEnd Routing
-- React: FrontEnd Developement
-- NodeJS: For BackEnd developement
-- Vercel: For hosting the frontEnd & backEnd production
-- Vite: For FrontEnd Developement
-- Tailwind: Framework for frontend development
-
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Mongo DB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white) ![Express](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Node JS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![JWT](https://img.shields.io/badge/json%20web%20tokens-323330?style=for-the-badge&logo=json-web-tokens&logoColor=pink) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
-
-![line]
-
-## Installation Guide
-
-  1. Download NodeJS >18.0.1
-  2. Run the following commands for running client (frontEnd)
-  3. set up `.env` with the help of `.env.example` file in both client and server
-```sh
-$> cd client
-$> npm i       # install all packages
-$> npm run dev # run the frontend
-```
-  3. Run the following commands for running server (backEnd)
-```sh
-$> cd client
-$> npm i       # install all packages
-$> npm start   # run the backEnd
-```
-
-![line]
-
-## Usage
- 
- 1. Users can navigate to the [deployed site](https://unnnati.vercel.app/).
- 2. Donate amount for betterment of women to provide free workshops to promote developement.
- 3. Host free Events for Women
- 4. Login and SignUp
- 5. See Job Postings specific to women
- 6. Acesss career Roadmaps and cheetsheets in Resources.
-
-![line]
-
-## Contributing
-
-- See [CONTRIBUTING.md](./CONTRIBUTING.md)
-
-![line]
-
-## Future Scope
-
-- Add Stripe payment to accept donations.
-- Add more secure authentication protocols using Aadhar or PAN card.
-- Low interest loan system for poverty striken women.
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) ![Dependabot](https://img.shields.io/badge/dependabot-025E8C?style=for-the-badge&logo=dependabot&logoColor=white) ![YAML](https://img.shields.io/badge/yaml-%23ffffff.svg?style=for-the-badge&logo=yaml&logoColor=151515) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 ![line]
 
 ## Preview
 
-![Macbook-Air-unnnati vercel app](https://github.com/SrijaAdhya12/unnati/assets/113666002/154495d6-b72f-4e09-8753-7cbbc1d65106)
-
-
-![line]
-
-## Contributions
-
-- [Srija Adhya](https://github.com/SrijaAdhya12):
-    - Team Management
-    - Task Deligation
-    - Project Layout
-    - FrontEnd
-    - Designing
-    - Ideation
-
-- [Pritam Kundu](https://github.com/warmachine028):
-    - Repository Management
-    - BackEnd
-    - FrontEnd
-    - Database Management
-    - Deployment
+![Snapshot](.github/preview.png)
 
 ![line]
 
-## Team
+## Best Contributors
 
 <div align="center">
-    <a  href="https://github.com/SrijaAdhya12/unnati">
-        <img src="https://contrib.rocks/image?repo=SrijaAdhya12/unnati"/>
+    <a  href="https://github.com/warmachine028/github-super-starter-kit/graphs/contributors">
+        <img src="https://contrib.rocks/image?repo=warmachine028/github-super-starter-kit" alt="contributors" />
     </a>
 </div>
 
@@ -151,10 +76,16 @@ $> npm start   # run the backEnd
 
 ## License
 
-- see [LICENSE](./LICENSE)
+- See [LICENSE]
 
-### Happy Hacking! 💚
+**Srija, 2024**
 
+![line]
+
+## Thank you, everyone 💚
+
+[markdown badges]: https://github.com/Ileriayo/markdown-badges
 [line]: https://user-images.githubusercontent.com/75939390/137615281-3a875960-92cc-407f-97fe-fd2319bdb252.png
+[License]: https://github.com/warmachine028/github-super-starter-kit/blob/main/LICENSE
 
-<!-- 31/03/24 -->
+<!-- 21/07/24 -->
