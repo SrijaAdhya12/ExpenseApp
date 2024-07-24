@@ -71,7 +71,7 @@
 
 ![line]
 
-**Srija, 2024**
+**<img width="10" src="https://img.icons8.com/?size=100&id=DbZhJARl07o2&format=png&color=000000"> Srija, 2024**
 
 ![line]
 
