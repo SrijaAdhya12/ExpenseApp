@@ -56,7 +56,7 @@
 
 ## Preview
 
-![Macbook-Air-expense-app-amber vercel app](https://github.com/user-attachments/assets/74f30189-9d54-40c8-a87d-f35f7f0cea6f)
+![Expense-App](https://github.com/user-attachments/assets/74f30189-9d54-40c8-a87d-f35f7f0cea6f)
 
 
 ![line]
@@ -68,10 +68,6 @@
         <img src="https://contrib.rocks/image?repo=SrijaAdhya12/Expense-App" alt="contributors" />
     </a>
 </div>
-
-![line]
-
-**<img width="10" src="https://img.icons8.com/?size=100&id=DbZhJARl07o2&format=png&color=000000"> Srija, 2024**
 
 ![line]
 
