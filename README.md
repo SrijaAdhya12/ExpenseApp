@@ -21,6 +21,7 @@
 - [Tech Stack Used](#tech-stack-used)
 - [Preview](#preview)
 - [Best Contributors](#best-contributors)
+- [License](#license)
 
 ![line]
 
@@ -70,6 +71,17 @@
 </div>
 
 ![line]
+
+## License
+
+-   see [LICENSE]
+
+**Srija, 2024**
+
+[license]: https://github.com/warmachine028/magnifico/blob/main/LICENSE
+
+![line]
+
 
 ## Thank you, everyone 💚
 
