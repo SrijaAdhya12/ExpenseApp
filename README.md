@@ -10,7 +10,7 @@
     </a>
 </div>
 
-# [ExpenseApp](https://expense-app-amber.vercel.app/)
+# [ExpenseApp](https://expenseapp-amber.vercel.app/)
 
 ![line]
 
