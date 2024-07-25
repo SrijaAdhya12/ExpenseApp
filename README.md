@@ -1,16 +1,16 @@
     updated on: 23st July 2024, Sunday
 
 <div align=center>
-    <a href="https://github.com/SrijaAdhya12/Expense-App">
+    <a href="https://github.com/SrijaAdhya12/ExpenseApp">
         <img width="200" src="https://cdn-icons-png.flaticon.com/512/962/962631.png" alt="expense icon">
     </a>
     <p style="font-family: roboto, calibri; font-size:12pt; font-style:italic"> An Expense Tracking App </p>
-    <a src="https://github.com/SrijaAdhya12/Expense-App/forks">
-        <img alt="GitHub forks" src="https://img.shields.io/github/forks/SrijaAdhya12/Expense-App">
+    <a src="https://github.com/SrijaAdhya12/ExpenseApp/forks">
+        <img alt="GitHub forks" src="https://img.shields.io/github/forks/SrijaAdhya12/ExpenseApp">
     </a>
 </div>
 
-# [Expense-App](https://expense-app-amber.vercel.app/)
+# [ExpenseApp](https://expense-app-amber.vercel.app/)
 
 ![line]
 
@@ -27,7 +27,7 @@
 
 ## Introduction
 
-- An Expense-App to make daily budgeting easy.
+- An ExpenseApp to make daily budgeting easy.
 - A project based on React js.
 - A fully responsive and sleek website with seemless UI.
 
@@ -57,7 +57,7 @@
 
 ## Preview
 
-![Expense-App](https://github.com/user-attachments/assets/74f30189-9d54-40c8-a87d-f35f7f0cea6f)
+![ExpenseApp](https://github.com/user-attachments/assets/74f30189-9d54-40c8-a87d-f35f7f0cea6f)
 
 
 ![line]
@@ -65,8 +65,8 @@
 ## Best Contributors
 
 <div align="center">
-    <a  href="https://github.com/SrijaAdhya12/Expense-App/graphs/contributors">
-        <img src="https://contrib.rocks/image?repo=SrijaAdhya12/Expense-App" alt="contributors" />
+    <a  href="https://github.com/SrijaAdhya12/ExpenseApp/graphs/contributors">
+        <img src="https://contrib.rocks/image?repo=SrijaAdhya12/ExpenseApp" alt="contributors" />
     </a>
 </div>
 
@@ -78,7 +78,7 @@
 
 **Srija, 2024**
 
-[license]: https://github.com/SrijaAdhya12/Expense-App/blob/main/LICENSE
+[license]: https://github.com/SrijaAdhya12/ExpenseApp/blob/main/LICENSE
 
 ![line]
 
