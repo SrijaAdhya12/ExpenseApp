@@ -2,7 +2,7 @@
 
 <div align=center>
     <a href="https://github.com/SrijaAdhya12/Expense-App">
-        <img width="200" src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20fill='none'%3e%3cpath%20stroke='%231DBBC3'%20stroke-linecap='round'%20stroke-linejoin='round'%20stroke-width='2.5'%20d='m2.25%2012%208.954-8.955a1.126%201.126%200%200%201%201.591%200L21.75%2012M4.5%209.75v10.125c0%20.621.504%201.125%201.125%201.125H9.75v-4.875c0-.621.504-1.125%201.125-1.125h2.25c.621%200%201.125.504%201.125%201.125V21h4.125c.621%200%201.125-.504%201.125-1.125V9.75M8.25%2021h8.25'/%3e%3c/svg%3e">
+        <img width="200" src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20fill='none'%3e%3cpath%20stroke='%231DBBC3'%20stroke-linecap='round'%20stroke-linejoin='round'%20stroke-width='2.5'%20d='m2.25%2012%208.954-8.955a1.126%201.126%200%200%201%201.591%200L21.75%2012M4.5%209.75v10.125c0%20.621.504%201.125%201.125%201.125H9.75v-4.875c0-.621.504-1.125%201.125-1.125h2.25c.621%200%201.125.504%201.125%201.125V21h4.125c.621%200%201.125-.504%201.125-1.125V9.75M8.25%2021h8.25'/%3e%3c/svg%3e" alt="expense icon">
     </a>
     <p style="font-family: roboto, calibri; font-size:12pt; font-style:italic"> An Expense Tracking App </p>
     <a src="https://github.com/SrijaAdhya12/Expense-App/forks">
